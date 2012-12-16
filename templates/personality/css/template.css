@@ -12,121 +12,212 @@ small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	font-family: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
 }
 body {
-	line-height: 1;
-	color: black;
-	background: white;
+  line-height: 1;
+  color: black;
+  background: white;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 table {
-	border-collapse:collapse;
-	border-spacing: 0;
+  border-collapse:collapse;
+  border-spacing: 0;
 }
 caption, th, td {
-	text-align: left;
-	font-weight: normal;
+  text-align: left;
+  font-weight: normal;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: "";
+  content: "";
 }
 blockquote, q {
-	quotes: "" "";
+  quotes: "" "";
 }
 abbr,acronym {
-	border:0;
+  border:0;
 }
 */
 
 /* Below are the CSS styles that aren't included with Blueprint. It's a good idea to keep them whether or not you use it unless you know what you're doing. */
 
 /* Text styles */
-.blog-featured h2 {
-	font-size: 1.5em;
-	margin-bottom:0em;
+/*.blog-featured h2 {
+  font-size: 1.5em;
+  margin-bottom:0em;
 }
 p.readmore {
-	text-indent:0;
-	font-size: .9em;
+  text-indent:0;
+  font-size: .9em;
 }
 .joomla-footer {
-	font-size: .9em;
-	margin-bottom: 30px;
+  font-size: .9em;
+  margin-bottom: 30px;
 }
 
 /* Article functions */
-ul.actions {
-	clear:both;
-	margin-top: -50px;
-	float:right;
+/*ul.actions {
+  clear:both;
+  margin-top: -50px;
+  float:right;
 }
 ul.actions li {
-	list-style-type: none;
-	float:right;
-	margin-left: 10px;
+  list-style-type: none;
+  float:right;
+  margin-left: 10px;
 }
 
 /* Login styles */
-p#form-login-username label,
+/*p#form-login-username label,
 p#form-login-password label {
-	width: 160px;
-	display:block;
+  width: 160px;
+  display:block;
 }
 p#form-login-remember label {
-	font-size: .9em;
-	font-weight: normal;
-	line-height: 25px;
+  font-size: .9em;
+  font-weight: normal;
+  line-height: 25px;
 }
 p#form-login-remember input {
-	float:left;
-	margin-right: 5px;
+  float:left;
+  margin-right: 5px;
 }
 form#form-login ul {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 form#form-login ul li {
-	list-style-type: none;
-	margin-left: 20px;
-	font-size: .9em;
+  list-style-type: none;
+  margin-left: 20px;
+  font-size: .9em;
 }
 
 /* Image float styles */
-.img-fulltext-left {
-	float:left;
-	margin-right: 20px;
-	margin-bottom: 20px;
+/*.img-fulltext-left {
+  float:left;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .img-intro-left {
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 10px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .img-fulltext-right {
-	float: right;
-	margin-left: 20px;
-	margin-bottom: 20px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .img-intro-right {
-	float: right;
-	margin-left: 10px;
-	margin-bottom: 10px;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}*/
+body {
+    background: #FF9900;
 }
+
+
+/*HEADER*/
+.header {
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #000;
+}
+.header .wrap_logo {
+    float: left;
+    text-align: center;
+    margin: 20px 200px 10px 50px;
+}
+.header .wrap_logo h1 {
+    width: 50px;
+    height: 50px;
+    text-indent: -250px;
+    overflow: hidden;
+    background: #000;
+    margin: 0 0 5px 0;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -o-border-radius: 15px;
+    -khtml-border-radius: 15px;
+}
+.header .joomla-nav {
+    background: none;
+    border: 0;
+    margin: 30px 0 0 0;
+}
+.header .joomla-nav li {
+    min-width: 70px;
+}
+.header .joomla-nav li ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+    display: none;
+    width: 70px;
+}
+/*.header .joomla-nav li.parent:hover {
+    background: #99CCFF;
+}*/
+.header .joomla-nav li.parent:hover ul {
+    display: block;
+}
+.header .joomla-nav li ul li {
+    clear: both;
+    margin: 0;
+}
+
+
+
+/*CONTENT*/
+.content {
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*CATEGORY NEWS*/
+.content h2 {
+    margin: 10px 0;
+}
+.content .wrap_news {
+    overflow: hidden;
+    border-bottom: 1px solid #000;
+    margin: 20px 0 0 0;
+    padding: 0 0 20px 0;
+}
+.content .wrap_news img {
+    float: left;
+    margin: 0 40px 0 0;
+    width: 230px;
+}
+.content ,.wrap_news .content_news {
+    overflow: hidden;
+}
+.content .wrap_news .content_news p.readmore {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+.content .wrap_news .content_news h3 {
+    text-decoration: underline;
+    margin: 0 0 10px 0;
+}
+
+
 

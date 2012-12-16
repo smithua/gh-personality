@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content" method="upgrade">
+    <name>Content - Scroll Back To Top</name>
+    <author>Vladislav V Galyanin</author>
+    <creationDate>November 2010</creationDate>
+    <copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU/GPL</license>
+    <authorEmail>v.galyanin@gmail.com</authorEmail>
+    <authorUrl>www.union-d.ru/dev/</authorUrl>
+    <version>1.1</version>
+    <description>
+    	  <![CDATA[
+        <h3>Scroll Back To Top Button for Joomla!<sup>TM</sup></h3>
+	    <p>Button position can be static or fixed at the bottom of the page.</p>
+		<p>You can redefine style for link using class .backtotop</p>
+		<p>You can find and replace image at path /plugins/content/top.png</p>
+		<p>For validating use XHTML 1.0 Transitional DOCTYPE</p>
+	  ]]>
+    </description>
+    <files>
+        <filename plugin="scrollbacktotop">scrollbacktotop.php</filename>
+		<filename>top.png</filename>
+		<filename>index.html</filename>
+    </files>
+	<languages>
+	   <language tag="en-GB">language/en-GB/en-GB.plg_content_scrollbacktotop.ini</language>
+	</languages>
+    <config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="sbtt_typ" type="list" default="2" label="Type_of_plugin" description="DESC_Type_of_plugin">
+					<option value="0">static: before content</option>
+					<option value="1">static: after content</option>
+					<option value="2">fixed: at the bottom of the page</option>
+				</field>
+				<field name="sbtt_hav" type="list" default="0" label="is_jQuery_already_installed" description="DESC_is_jQuery_already_installed">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="sbtt_main" type="list" default="0" label="use_Scroll_on_main_page" description="DESC_use_Scroll_on_main_page">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="sbtt_speed" type="list" default="slow" label="speed" description="DESC_speed">
+					<option value="slow">Slow</option>
+					<option value="10000">10000</option>
+					<option value="5000">5000</option>
+					<option value="1000">1000</option>
+					<option value="fast">Fast</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</install>

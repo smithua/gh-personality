@@ -1,0 +1,15 @@
+#scroll {
+    background: url("../images/gototop.png") no-repeat scroll 5px 0px;
+    color: #ffffff;
+    display: none;
+    font-size: 11px;
+    height: 53px;
+    width:53px;
+    position: fixed;
+    padding: 0 20px 0 23px;
+    bottom: 20px;
+    right: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}

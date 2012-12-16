@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system">
+    <name>plg_system_jpaginator3000</name>
+    <author>Nikita S. Zonov</author>
+    <creationDate>August 2012</creationDate>
+    <copyright>Copyright (C) 2012 Joomalungma.</copyright>
+    <license>GPL2</license>
+    <authorEmail>info@joomalungma.com</authorEmail>
+    <authorUrl>http://joomalungma.com</authorUrl>
+    <version>1.1.1</version>
+    <description>PLG_SYSTEM_JPAGINATOR3000_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="jpaginator3000">jpaginator3000.php</filename>
+        <filename>pagination.php</filename>
+        <filename>index.html</filename>
+        <folder>assets</folder>
+        <folder>language</folder>
+    </files>
+    <config>
+    </config>
+    <updateservers>
+        <server type="extension" priority="1" name="jpaginator3000">
+            <![CDATA[ http://joomalungma.com/updatexml/free-jpaginator3000-update.xml]]>
+        </server>
+    </updateservers>
+</extension>

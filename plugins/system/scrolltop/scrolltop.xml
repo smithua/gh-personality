@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extension type="plugin" version="1.6" group="system" method="upgrade">
+  <name>System - ScrollTop</name>
+  <creationDate>16-Jan-2012</creationDate>
+  <author>OSTree Team</author>
+  <authorEmail>ostree.org@gmail.com</authorEmail>
+  <authorUrl>http://www.ostree.org</authorUrl>
+  <copyright>http://www.ostree.org</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>1.1</version>
+  <description>Adds automatic 'Back to Top' link when the page has scrolled to a specified point.</description>
+  <files folder="site">
+    <filename plugin="scrolltop">scrolltop.php</filename>
+    <filename>index.html</filename> 
+  </files>
+   <media>
+        <folder>scrolltop</folder>
+    </media>
+</extension>
