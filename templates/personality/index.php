@@ -43,8 +43,10 @@ $app = JFactory::getApplication();
     <div class="wrapper">
         <div class="header">
           <div class="wrap_logo">
-            <h1>Personality</h1>
-            <span>LOGO</span>
+            <a href="index.php?option=com_content&view=category&layout=blog&id=8">
+                <h1>Personality</h1>
+                <span>LOGO</span>
+            </a>
           </div>
         <jdoc:include type="modules" name="personality-topmenu" />
         </div>
