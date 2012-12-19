@@ -131,6 +131,7 @@ form#form-login ul li {
 }*/
 body {
     background: #FF9900;
+    margin: 0;
 }
 
 
@@ -197,18 +198,17 @@ body {
 
 /*CATEGORY NEWS*/
 .content h2 {
-    margin: 10px 0 10px 200px;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    margin: 10px 0 10px 20px;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 }
 .content .blog img {/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
     float: left;
-    margin: -30px 30px 20px 0;
-    max-width: 200px;
-    max-height: 110px;
+    margin: 0 30px 20px 0;
 }
 
 
 .content .items-leading {
     padding: 20px;
+    overflow: hidden;
 }
 .content .item {
     overflow: hidden;
