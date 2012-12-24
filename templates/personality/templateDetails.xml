@@ -30,6 +30,7 @@
 	</files>
 
 	<positions>
+		<position>personality-map</position>
 		<position>personality-bottomleft</position>
 		<position>personality-bottommiddle</position>
 		<position>personality-search</position>
