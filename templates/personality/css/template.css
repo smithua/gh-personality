@@ -130,7 +130,6 @@ form#form-login ul li {
   margin-bottom: 10px;
 }*/
 body {
-    background: #FF9900;
     margin: 0;
 }
 
@@ -143,7 +142,6 @@ body {
 .header {
     background: #fff;
     overflow: hidden;
-    border: 2px solid #000;
 }
 .header .wrap_logo {
     float: left;
