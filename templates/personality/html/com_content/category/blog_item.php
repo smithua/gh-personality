@@ -161,8 +161,7 @@ JHtml::_('behavior.framework');
 					elseif ($params->get('show_readmore_title', 0) == 0) :
 						echo JText::sprintf('COM_CONTENT_READ_MORE_TITLE');
 					else :
-						echo JText::_('COM_CONTENT_READ_MORE');
-						echo JHtml::_('string.truncate', ($this->item->title), $params->get('readmore_limit'));
+						echo JText::_('Читати повністю');
 					endif; ?></a>
 		</p>
 <?php endif; ?>

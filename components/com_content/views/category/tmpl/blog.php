@@ -21,6 +21,7 @@ JHtml::addIncludePath(JPATH_COMPONENT.'/helpers');
 
 	<?php if ($this->params->get('show_category_title', 1) or $this->params->get('page_subheading')) : ?>
 	<h2>
+	<h2>
 		<?php echo $this->escape($this->params->get('page_subheading')); ?>
 		<?php if ($this->params->get('show_category_title')) : ?>
 			<span class="subheading-category"><?php echo $this->category->title;?></span>

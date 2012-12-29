@@ -76,7 +76,7 @@ if($toggle_active == 1) { // if the directions map has been turned ON...
 <?php if($mainmap == 1) { ?>
 
 <body onload="codeAddress()">
-<div class="gmap">
+<div class="<?php echo $moduleclass_sfx; ?>">
 <div id="wrap_map" style="width:<?php echo $width; ?>px">
 	<?php if($toggle_leftmiddleright == 0) {  // position search left ?>
 		<div class="map_left_pos">
