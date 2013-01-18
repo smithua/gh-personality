@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+/* <!-- */
+div#wrap_map {
+	text-align:left;
+	margin:0 auto;
+}
+
+div.map_left_pos {
+	text-align:left;
+}
+
+div.map_middle_pos {
+	text-align:center;
+}
+
+div.map_right_pos {
+	text-align:right;
+}
+/* --> */

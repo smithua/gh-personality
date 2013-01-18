@@ -52,6 +52,8 @@ $app = JFactory::getApplication();
         </div>
         <div class="content">
             <jdoc:include type="component" />
+            <jdoc:include type="modules" name="personality-map" />
+            <jdoc:include type="modules" name="personality-lightbox" />
         </div>
     </div>
   </body>

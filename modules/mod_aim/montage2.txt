@@ -1,0 +1,10 @@
+							});
+							
+							/* 
+							 * just for this demo:
+							 */
+							$('#overlay').fadeIn(500);
+						}
+					}).attr('src',$img.attr('src'));
+				});	
+				$("a[rel='colorbox1']").colorbox({slideshow: true, opacity:
